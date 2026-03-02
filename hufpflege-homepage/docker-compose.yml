@@ -1,0 +1,8 @@
+services:
+  hufpflege-web:
+    build: .
+    container_name: hufpflege-web
+    restart: unless-stopped
+    ports:
+      - "8080:80"   # Erreichbar unter http://localhost:8080
+    # Für Production: Port anpassen oder hinter Reverse-Proxy (Traefik/Nginx) betreiben
