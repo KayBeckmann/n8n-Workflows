@@ -1,0 +1,3 @@
+[submodule "Motivhaus"]
+	path = Motivhaus
+	url = git@github.com:KayBeckmann/Motivhaus.git
